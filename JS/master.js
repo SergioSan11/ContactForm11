@@ -1,3 +1,4 @@
+// hola
 $(document).ready(function () {
   document.getElementById("btn0").addEventListener("click",changeStep,false);
   document.getElementById("btn1").addEventListener("click",changeStep,false);
@@ -349,7 +350,7 @@ function callAjax(){
   formData.append("name",document.getElementById("name").value);
   formData.append("surname1",document.getElementById("surname1").value);
   formData.append("surname2",document.getElementById("surname2").value);
-  formData.append("nickname",document.getElementById("nnickname").value);
+  formData.append("nickname",document.getElementById("nickname").value);
   formData.append("password",document.getElementById("password").value);
   formData.append("skype",document.getElementById("skype").value);
   formData.append("phone1",document.getElementById("phone1").value);
