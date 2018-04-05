@@ -1,0 +1,51 @@
+.container{
+  padding: 2%;
+}
+#certificates{
+  display: none;
+}
+.row{margin:0px;}
+#cv{
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+  top:-9000px;
+  left:-9000px;
+}
+body {
+
+}
+#onlinetest,#readingtest,#freespeech{
+  display: none;
+}
+.center{
+  text-align: center;
+}
+#examTest > tbody > tr:nth-child(2) > td{
+width: 10%;
+}
+#examTest > tbody:nth-child(odd) {
+    background: #dee4e8;
+}
+#examTest > tbody:nth-child(even) {
+    background: #d0d7db;
+}
+
+#examTest > tbody> tr >td{
+  padding:1%;
+
+}
+label{display: inline;}
+
+.alertErrorStep{
+  position: absolute;
+    z-index: 99;
+    color: white;
+    background: #be4b49;
+    display: none;
+    border-radius: 10px;
+    margin-top: 4px;
+    font-size: 13px;
+    text-align: justify;
+    padding:15px;
+}
